@@ -1,17 +1,15 @@
-import './App.css'
-import Button from 'react-bootstrap/Button';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import NavBar from "./components/NavBar";
+import { Banner } from "./components/Banner";
 
 function App() {
-
   return (
     <>
-    <Button variant="primary">Primary</Button>{' '}
-
+      <NavBar></NavBar>
+      <Banner></Banner>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
