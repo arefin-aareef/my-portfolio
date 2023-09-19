@@ -8,6 +8,7 @@ import navIcon1 from '../assets/img/nav-icon1.svg'
 import navIcon2 from '../assets/img/nav-icon2.svg'
 import navIcon3 from '../assets/img/nav-icon3.svg'
 import navIcon4 from '../assets/img/nav-icon4.svg'
+import navIcon5 from "../assets/img/nav-icon5.svg";
 
 
 export const NavBar = () => {
@@ -51,9 +52,10 @@ export const NavBar = () => {
                 <a href="https://www.linkedin.com/in/arefin-aareef" target="_blank"><img src={navIcon1} alt="" /></a>
                 <a href="https://www.facebook.com/arefin.aareef" target="_blank"><img src={navIcon2} alt="" /></a>
                 <a href="https://www.instagram.com/arefin.aareef" target="_blank"><img src={navIcon3} alt="" /></a>
+                <a href="https://www.twitter.com/arefin_aareef" target="_blank"><img src={navIcon5} alt="" /></a>
                 <a href="https://github.com/arefin-aareef" target="_blank"><img src={navIcon4} alt="" /></a>
             </div>
-            {/* <button className='vvd' onClick={() => console.log('connect') }> <span>Let's Connect</span> </button> */}
+            {/* <button className='vvd'> <span>Let's Connect</span> </button> */}
           </span>
         </Navbar.Collapse>
       </Container>

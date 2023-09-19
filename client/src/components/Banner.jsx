@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable react/no-unescaped-entities */
 import { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
@@ -59,9 +60,9 @@ export const Banner = () => {
               MERN stack, dedicated to creating seamless user experiences and
               pushing the boundaries of web development.
             </p>
-            <button onClick={() => console.log("connect")}>
-              Let's Connect <ArrowRightCircle size={25} />{" "}
-            </button>
+            <a href="https://drive.google.com/drive/folders/1xK6q3Rp1e_MIGVJUDDXEaWmwxnc5-6sb?usp=sharing" target="_blank">
+              Download Resume <ArrowRightCircle size={25} />{" "}
+            </a>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img src={headerImg} alt="Header Img" />

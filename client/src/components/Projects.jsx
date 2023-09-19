@@ -66,7 +66,7 @@ const Projects = () => {
           <Col>
             <h2>Projects</h2>
             <p>
-            Our projects represent the intersection of ambition and innovation. Join us on a journey to redefine possibilities.
+            These projects represent the intersection of ambition and innovation. Join us on a journey to redefine possibilities.
             </p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav
